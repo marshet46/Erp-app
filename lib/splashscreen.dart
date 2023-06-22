@@ -48,7 +48,7 @@ class _SplashScreenState extends State<SplashScreen>
                   height: screenHeight,
                   width: screenWidth,
                   color: Colors.green,
-                  child: Image.asset('assets/images/logo.png',
+                  child: Image.asset('assets/images/lg2.png',
                            height: screenHeight,
                            width: screenWidth,
                            ))
