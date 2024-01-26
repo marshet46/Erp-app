@@ -14,7 +14,7 @@ class _SplashScreenState extends State<SplashScreen>
   late double screenWidth, screenHeight;
   final Duration duration = const Duration(seconds: 5);
   late AnimationController _controller;
-    String _url2 = "https://finance.abyssiniasoftware.com/";
+    String _url2 = "https://dabidrinkmasstrade.abyssiniasoftware.com/";
 
   @override
   void initState() {

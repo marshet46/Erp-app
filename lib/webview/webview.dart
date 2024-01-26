@@ -92,7 +92,7 @@ class _WebviewTwoState extends State<WebviewTwo> {
   Future<void> _checkInternetConnection() async {
     try {
       final result = await InternetAddress.lookup(
-          'https://finance.abyssiniasoftware.com/');
+          'https://dabidrinkmasstrade.abyssiniasoftware.com/');
       if (result.isNotEmpty && result[0].rawAddress.isNotEmpty) {
         setState(() {
           _isConnected = true;
@@ -134,7 +134,7 @@ class _WebviewTwoState extends State<WebviewTwo> {
                             key: webViewKey,
                             initialUrlRequest: URLRequest(
                               url: Uri.parse(
-                                  'https://finance.abyssiniasoftware.com/'),
+                                  'https://dabidrinkmasstrade.abyssiniasoftware.com/'),
                               headers: {},
                             ),
                             onLoadError: (InAppWebViewController controller,

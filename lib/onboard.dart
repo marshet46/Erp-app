@@ -12,8 +12,8 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   int _currentPage = 0;
   final List<Map<String, String?>> _onboardingData = [
     {
-      "title": "Welcome to Abyssina Secured Finance Manager App",
-      "text": "this app helps to manage your daily Finance activity Easily. For Merchants and Companies",
+      "title": "Welcome to ዳቢ የመጠጥ ጅምላ ንግድ ኃ/የተ/የግል ማህበር Secured Sales and Inventary,CRM,and Finance App",
+      "text": "this app helps to manage your daily Finance,sales and inventary and CRM activity Easily",
       "image": "assets/images/lg2.png"
     },
     {
@@ -28,12 +28,12 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     },
      {
       "title": "You can use computer or Phone",
-      "text": "Same Data and Interface on computer and phone. You can use mobile app or the website Version at https://finance.abyssiniasoftware.com/",
+      "text": "Same Data and Interface on computer and phone. You can use mobile app or the website Version at https://dabidrinkmasstrade.abyssiniasoftware.com/",
       "image": "assets/images/lg2.png"
     },
      {
       "title": "Features ",
-      "text": "it has Budget Management, Expense and Income Managment, Data report and more...",
+      "text": "it has Budget Management, Expense and Income Managment,Sales Managment,Inventary managmnet , Data report and more...",
       "image": "assets/images/lg2.png"
     },
      {
@@ -109,7 +109,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                       onPressed: () {
                          Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => WebviewTwo(url: 'https://finance.abyssiniasoftware.com/',)),
+                          MaterialPageRoute(builder: (context) => WebviewTwo(url: 'https://dabidrinkmasstrade.abyssiniasoftware.com/',)),
                         );
                       },
                       child: Text("Get Started"),

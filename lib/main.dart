@@ -29,7 +29,7 @@ class MyApp extends StatelessWidget {
 
 
     return MaterialApp(
-      title: 'Ayssinia Finance App ',
+      title: 'Dabi Sales and inventary system ',
       theme: ThemeData(
           primarySwatch: Colors.green, visualDensity: VisualDensity.standard),
       debugShowCheckedModeBanner: false,
