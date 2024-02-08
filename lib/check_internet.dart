@@ -9,7 +9,7 @@ class CheckInternet {
     } else if (result == ConnectivityResult.wifi) {
       return 1;
     } else {
-      return 0;
+      return 0; // if no connection
     }
   }
 }
